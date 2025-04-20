@@ -84,9 +84,6 @@ Make sure the port matches the one you set in your `.env` file.
 You’ll need a PostgreSQL database with the following schema. After connecting your database (as per the `DATABASE_URL`), execute the following SQL commands:
 
 ```sql
--- Backend URL for frontend access
-REACT_APP_BASE_URL = http://localhost:<PORT>
-
 -- Users Table
 CREATE TABLE users (
     id SERIAL PRIMARY KEY,
